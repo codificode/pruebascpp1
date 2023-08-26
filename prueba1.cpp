@@ -23,10 +23,19 @@ pounds = euros * EUR_POUND;
 cout << euros << "euros son " << pounds << " libras" << endl;
 }
 
+void librasaeuros(){
+//€/pounds calculator
+double pounds, euros;
+cout << "Introduzca la cantidad de libras para pasar a euros";
+cin >> pounds;
+euros = pounds / EUR_POUND;
+cout << pounds << "libras son " << euros << " euros" << endl;
+}
+
 
 int main()
 {
-eurosaLibras();
+librasaeuros();
 
 }
 
